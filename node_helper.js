@@ -1,5 +1,5 @@
 /* Magic Mirror
- * Module: MMM-Chart
+ * Module: MMM-MusicCharts
  *
  * By Cowboysdude
  *
