@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+.MMM-Chart .wrapper{
+	text-align: justify;
+}
+
+.MMM-Chart .list-row {
+    width: 140px;
+  white-space: normal;
+  white-space: pre-line;
+    }
+
+.MMM-Chart .list-left {
+    width:auto;
+    padding:1px;
+    float:left;
+    }
+.MMM-Chart .photo {
+    width: 125px;
+    height: 125px;
+    }
+.MMM-Chart .list-center {
+    text-align: center;
+    }
+.MMM-Chart .list-right {
+    padding:1px;
+    float:right;
+    }
+
+.MMM-Chart .list-title {
+    margin-top: 1px;   
+    padding:2px;
+    margin-left: 5px;
+    }
+
+.MMM-Chart .list-filters { padding:8px; }
