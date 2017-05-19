@@ -1,8 +1,8 @@
 {
-  "name": "mmm-chart",
+  "name": "mmm-musiccharts",
   "version": "1.0.0",
   "description": "Top 100 Songs for MM2",
-  "main": "MMM-Chart.js",
+  "main": "MMM-MusicCharts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,13 +14,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cowboysdude/MMM-Chart.git"
+    "url": "git+https://github.com/cowboysdude/MMM-MusicCharts.git"
   },
   "keywords": [
     "MagicMirror"
   ],
   "bugs": {
-    "url": "https://github.com/cowboysdude/MMM-Chart/issues"
+    "url": "https://github.com/cowboysdude/MMM-MusicCharts/issues"
   },
-  "homepage": "https://github.com/cowboysdude/MMM-Chart#readme"
+  "homepage": "https://github.com/cowboysdude/MMM-MusicCharts#readme"
 }
