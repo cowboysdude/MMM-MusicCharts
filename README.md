@@ -1,6 +1,22 @@
 ## MMM-Chart
 Top music charts for MagicMirror 2
 
+* `git clone https://github.com/cowboysdude/MMM-Chart` into the `~/MagicMirror/modules` directory.
+* `cd ~MagicMirror/modules/MMM-Chart`
+* type `npm install`
+
+## Config.js entry and options
+
+    {
+        module: 'MMM-Chart',
+        position: 'top_left',
+        config: {
+            maxWidth: "55%",
+            chart: 'hot-100',
+        }
+    },
+
+
 ## Overall Popularity
 
     Billboard 200: 'billboard-200'
