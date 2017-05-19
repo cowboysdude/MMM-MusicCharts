@@ -1,6 +1,14 @@
 ## MMM-Chart
 Top music charts for MagicMirror 2
 
+## Examples
+
+![](swedish.PNG)
+
+![](today.PNG)
+
+![](Capture.PNG)
+
 * `git clone https://github.com/cowboysdude/MMM-Chart` into the `~/MagicMirror/modules` directory.
 * `cd ~MagicMirror/modules/MMM-Chart`
 * type `npm install`
