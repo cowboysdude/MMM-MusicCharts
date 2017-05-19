@@ -3,9 +3,9 @@ Top music charts for MagicMirror 2
 
 ## Examples
 
-![](swedish.PNG)
+![](Capture2.PNG)
 
-![](today.PNG)
+![](Capture1.PNG)
 
 ![](Capture.PNG)
 
