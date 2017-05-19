@@ -1,7 +1,7 @@
 ## MMM-Chart
 Top music charts for MagicMirror 2
 
-#Overall Popularity
+## Overall Popularity
 
     Billboard 200: 'billboard-200'
     Artist 100: 'artist-100'
@@ -22,17 +22,17 @@ Top music charts for MagicMirror 2
     Social 50: 'social-50'
     Tastemaker Albums: 'tastemaker-albums'
 
-##Breaking and Entering
+## Breaking and Entering
 
     Heatseekers Albums: 'heatseekers-albums'
 
-##Pop
+## Pop
 
     Pop Songs: 'pop-songs'
     Adult Pop Songs: 'adult-pop-songs'
     Adult Contemporary: 'adult-contemporary'
 
-##Country
+## Country
 
     Country Digital Song Sales: 'country-digital-song-sales'
     Country Streaming Songs: 'country-streaming-songs'
@@ -40,7 +40,7 @@ Top music charts for MagicMirror 2
     Bluegrass Albums: 'bluegrass-albums'
     Hot Country Songs: 'country-songs'
 
-##Rock
+## Rock
 
     Hot Rock Songs: 'rock-songs'
     Country Airplay: 'country-airplay'
@@ -55,7 +55,7 @@ Top music charts for MagicMirror 2
     Hard Rock Albums: 'hard-rock-albums'
     Americana/Folk Albums: 'americana-folk-albums'
 
-##R&B/Hip-Hop
+## R&B/Hip-Hop
 
     Hot R&B/Hip-Hop Songs: 'r-b-hip-hop-songs'
     R&B/Hip-Hop Airplay: 'hot-r-and-b-hip-hop-airplay'
@@ -72,7 +72,7 @@ Top music charts for MagicMirror 2
     Hot Dance/Electronic Songs: 'dance-electronic-songs'
     Rhythmic Songs: 'rhythmic-40'
 
-##Dance/Electronic
+## Dance/Electronic
 
     Dance/Electronic Digital Song Sales: 'dance-electronic-digital-song-sales'
     Dance/Electronic Streaming Songs: 'dance-electronic-streaming-songs'
@@ -80,7 +80,7 @@ Top music charts for MagicMirror 2
     Dance/Mix Show Airplay: 'hot-dance-airplay'
     Top Dance/Electronic Albums: 'dance-electronic-albums'
 
-##Latin
+## Latin
 
     Hot Latin Songs: 'latin-songs'
     Latin Digital Song Sales: 'latin-digital-song-sales'
@@ -93,7 +93,7 @@ Top music charts for MagicMirror 2
     Latin Pop Albums: 'latin-pop-albums'
     Top Latin Albums: 'latin-albums'
 
-##Christian/Gospel
+## Christian/Gospel
 
     Hot Christian Songs: 'christian-songs'
     Christian Airplay: 'christian-airplay'
@@ -107,7 +107,7 @@ Top music charts for MagicMirror 2
     Top Gospel Albums: 'gospel-albums'
     Gospel Airplay: 'gospel-airplay'
 
-##Holiday
+## Holiday
 
     Holiday 100: 'hot-holiday-songs'
     Holiday Digital Song Sales: 'holiday-season-digital-song-sales'
@@ -115,7 +115,7 @@ Top music charts for MagicMirror 2
     Holiday Streaming Songs: 'holiday-streaming-songs'
     Holiday Airplay: 'holiday-songs'
 
-##Additional Genres
+## Additional Genres
 
     Blues Albums: 'blues-albums'
     Classical Albums: 'classical-albums'
@@ -126,11 +126,11 @@ Top music charts for MagicMirror 2
     New Age Albums: 'new-age-albums'
     Reggae Albums: 'reggae-albums'
 
-##Soundtracks: 'soundtracks'
+## Soundtracks: 'soundtracks'
 
     World Albums: 'world-albums'
 
-##International
+## International
 
     Japan Hot 100: 'japan-hot-100'
     China V Chart: 'china-v-chart'
@@ -143,7 +143,7 @@ Top music charts for MagicMirror 2
     Germany Albums: 'german-albums'
     France Songs: 'france-songs'
 
-##Web
+## Web
 
     Spotify Velocity: 'spotify-velocity'
     Spotify Rewind: 'spotify-rewind'
