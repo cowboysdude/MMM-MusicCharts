@@ -1,4 +1,4 @@
-## MMM-Chart
+## MMM-MusicCharts
 Top music charts for MagicMirror 2
 
 ## Examples
