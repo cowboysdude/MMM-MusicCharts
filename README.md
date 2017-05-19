@@ -16,7 +16,7 @@ Top music charts for MagicMirror 2
 ## Config.js entry and options
 
     {
-        module: 'MMM-Chart',
+        module: 'MMM-MusicCharts',
         position: 'top_left',
         config: {
             maxWidth: "55%",
