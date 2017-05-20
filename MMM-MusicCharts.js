@@ -102,7 +102,7 @@ Module.register("MMM-MusicCharts", {
 
             var weeksOn = document.createElement("p");
             weeksOn.classList.add("xsmall", "bright", "list-title");
-            weeksOn.innerHTML = "Weeks on chart: #" + chart.position['Wks on Chart'];
+            weeksOn.innerHTML = "Weeks on chart: " + chart.position['Wks on Chart'];
             top.appendChild(weeksOn);
 
             wrapper.appendChild(top);
