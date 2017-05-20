@@ -20,7 +20,7 @@ Top music charts for MagicMirror 2
         module: 'MMM-MusicCharts',
         position: 'top_left',
         config: {
-            maxWidth: "55%",
+            maxWidth: "65%",
             chart: 'hot-100',
         }
     },
