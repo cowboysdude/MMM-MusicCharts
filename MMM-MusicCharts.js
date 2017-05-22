@@ -62,9 +62,9 @@ Module.register("MMM-MusicCharts", {
             if (chart.rank === lastWeek || lastWeek === '--'){
 			rank.innerHTML = chart.rank;	
 			} else if(chart.rank < lastWeek){
-			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/up.png' width=25px; heigh=25px;>"+ chart.rank;	
+			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/up1.png' width=25px; heigh=25px;>"+ chart.rank;	
 			} else {
-			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/down.png' width=25px; heigh=25px;>"+ chart.rank;	
+			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/down1.png' width=25px; heigh=25px;>"+ chart.rank;	
 			}
             wrapper.appendChild(rank);
 
