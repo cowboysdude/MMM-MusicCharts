@@ -59,7 +59,7 @@ Module.register("MMM-MusicCharts", {
             var rank = document.createElement("div");
             var lastWeek = chart.position['Last Week'];
             rank.classList.add("xlarge", "bright", "first-div");
-            if (chart.rank === lastWeek ){
+            if (chart.rank === lastWeek || lastWeek === '--'){
 			rank.innerHTML = chart.rank;	
 			} else if(chart.rank < lastWeek){
 			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/up.png' width=25px; heigh=25px;>"+ chart.rank;	
