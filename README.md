@@ -3,11 +3,11 @@ Top music charts for MagicMirror 2
 
 ## Examples
 
-![](1.PNG)
+![](arrow1.PNG)
 
-![](2.PNG)
+![](arrow2.PNG)
 
-![](3.PNG)
+![](arrow.PNG)
 
 
 * `git clone https://github.com/cowboysdude/MMM-MusicCharts` into the `~/MagicMirror/modules` directory.
