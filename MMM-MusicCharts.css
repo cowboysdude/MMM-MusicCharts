@@ -1,43 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Sansita');
-.MMM-MusicCharts .wrapper{
-	text-align: justify;
-	width: 400px;
-	
+.MMM-MusicCharts .first-div {
+  width:120px;
+  float:left;
+  margin-right: 15px;
 }
-
-.MMM-MusicCharts .list-row {
-    width: 140px;
-  white-space: normal;
-  white-space: pre-line;
-    }
-
-.MMM-MusicCharts .left {
-   float: left;
-   padding: 0 20px 20px 0;
+.MMM-MusicCharts .second-div {
+  width:130px;
+  float:left;
+  margin-right: 15px;
+}
+.MMM-MusicCharts .third-div {
+  width:170px;
+  float:left;
 }
 .MMM-MusicCharts .photo {
-    width: 100px;
-    height: 100px;
-    }
-.MMM-MusicCharts .nophoto {
-
-    width: 100px;
-    height: 100px;
-    }
-.MMM-MusicCharts .list-center {
-    text-align: center;
-    }
-.MMM-MusicCharts .list-right {
-    padding:1px;
-    float:right;
-    }
-
-.MMM-MusicCharts .list-title {
-    margin-top: 1px;   
-    padding:2px;
-    margin-left: 5px;
-    line-height: .3em;
-    }
-
-.MMM-MusicCharts .list-filters { padding:8px; }
+  width:125px;
+  height: 125px;
+}
