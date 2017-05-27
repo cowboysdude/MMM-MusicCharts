@@ -41,6 +41,8 @@ Module.register("MMM-MusicCharts", {
         var chart = this.chart;
 
         var wrapper = document.createElement("div");
+		wrapper.classList.add("main");
+        
 
         if (!this.loaded) {
             wrapper.classList.add("container");
@@ -59,7 +61,7 @@ Module.register("MMM-MusicCharts", {
             var rank = document.createElement("div");
             var lastWeek = chart.position['Last Week'];
             rank.classList.add("xlarge", "bright", "first-div");
-            if (chart.rank === lastWeek || lastWeek === '--'){
+            if (chart.rank === lastWeek ||lastWeek === '--'){
 			rank.innerHTML = chart.rank;	
 			} else if(chart.rank < lastWeek){
 			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/up1.png'>"+ chart.rank;	
@@ -81,30 +83,36 @@ Module.register("MMM-MusicCharts", {
             wrapper.appendChild(artistLogo);
 
             var thirdDiv = document.createElement("div");
-            thirdDiv.classList.add("third-div");
+                        
             
-            var title = document.createElement("div");
-            title.classList.add("xsmall", "bright");
+            var title = document.createElement("span");
+            title.classList.add("xsmall", "bright", "span");
+            if (chart.artist != undefined){
             title.innerHTML = "TITLE: " + chart.title;
+				} else {
+			title.innerHTML = "ARTIST: " + chart.title;		
+				}	
             thirdDiv.appendChild(title);
 
-            var artist = document.createElement("div");
-            artist.classList.add("xsmall", "bright");
-            artist.innerHTML = "ARTIST: " + chart.artist;
+            if (chart.artist != undefined){
+            var artist = document.createElement("span");
+            artist.classList.add("xsmall", "bright", "span");
+			artist.innerHTML = "ARTIST: " + chart.artist;
             thirdDiv.appendChild(artist);
-
-            var lastrank = document.createElement("div");
-            lastrank.classList.add("xsmall", "bright");
+            }
+            
+            var lastrank = document.createElement("span");
+            lastrank.classList.add("xsmall", "bright", "span");
             lastrank.innerHTML = "Last Week Rank: #" + chart.position['Last Week'];
             thirdDiv.appendChild(lastrank);
 
-            var peak = document.createElement("div");
-            peak.classList.add("xsmall", "bright");
+            var peak = document.createElement("span");
+            peak.classList.add("xsmall", "bright", "span");
             peak.innerHTML = "Highest spot on chart: #" + chart.position['Peak Position'];
             thirdDiv.appendChild(peak);
 
-            var weeksOn = document.createElement("div");
-            weeksOn.classList.add("xsmall", "bright");
+            var weeksOn = document.createElement("span");
+            weeksOn.classList.add("xsmall", "bright", "span");
             weeksOn.innerHTML = "Weeks on chart: " + chart.position['Wks on Chart'];
             thirdDiv.appendChild(weeksOn);
             
