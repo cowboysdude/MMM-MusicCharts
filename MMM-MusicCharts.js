@@ -62,7 +62,7 @@ Module.register("MMM-MusicCharts", {
             var lastWeek = chart.position['Last Week'];
             rank.classList.add("xlarge", "bright", "first-div");
             if (chart.rank === lastWeek ||lastWeek === '--'){
-			rank.innerHTML = chart.rank;	
+			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/spacer.png'>"+ chart.rank;	
 			} else if(chart.rank < lastWeek){
 			rank.innerHTML = "<img src= 'modules/MMM-MusicCharts/icons/up1.png'>"+ chart.rank;	
 			} else {
@@ -108,7 +108,7 @@ Module.register("MMM-MusicCharts", {
 
             var peak = document.createElement("span");
             peak.classList.add("xsmall", "bright", "span");
-            peak.innerHTML = "Highest spot on chart: #" + chart.position['Peak Position'];
+            peak.innerHTML = "Highest Rank: #" + chart.position['Peak Position'];
             thirdDiv.appendChild(peak);
 
             var weeksOn = document.createElement("span");
