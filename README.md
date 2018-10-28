@@ -1,5 +1,7 @@
 ## MMM-MusicCharts
-Top music charts for MagicMirror 2
+
+
+CURRENTLY THE API FOR THIS IS DOWN WITH NO ESTIMATION WHEN IT WILL EVER WORK AGAIN.....I'm trying to locate a new source for the info.
 
 ## Examples
 
