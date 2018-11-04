@@ -1,27 +1,49 @@
-.MMM-MusicCharts .main {
-    width: 430px;
-    height: 270px; 
-    display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
+@import url('https://fonts.googleapis.com/css?family=Economica'); 
+.MMM-MusicCharts .img {
+	 
+    float: center;
+	width: 14%;
+	height: 14%;
+} 
+.MMM-MusicCharts .imgLogo {
+	width: 34%;
+	height: 15%;
+} 
+
+div.flexcontainer{
     display: flex;
-    align-items: center;
-    padding-right: 5px;
+   
 }
-
-.MMM-MusicCharts .main div {
-   -webkit-flex: 1; /* Safari 6.1+ */
-   flex: 1;
+.fontLetter {
+	font-family: 'Economica', sans-serif;
+	color: #008080;
+    font-size: 23px;
+	line-height: 95%;
 }
-.MMM-MusicCharts .span {
-    margin-left: 10px;
-    color: #d1d1d1;
-    font-size: 13px;
-    font-style: italic;
-    font-weight:bold;
-    display:block;
+.fonty {
+	font-family: 'Economica', sans-serif;
+	color: #f7921b;
+    font-size: 63px;	
 }
-
-.MMM-MusicCharts .photo {
-  width:125px;
-  height:125px;
+div.columns{
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /* make padding part of width declared, not in addition */
+}
+ 
+div.columns:nth-of-type(1){
+    background: #000;
+    flex: none; /* make this flex item inflexible, so width property controls its width entirely */
+    width: 90px;
+	padding-right: 5px;
+}
+ 
+div.columns:nth-of-type(2){
+    flex: 7;
+}
+ 
+div.columns:nth-of-type(3){
+    flex: 3;
+    background: #eee;
 }
