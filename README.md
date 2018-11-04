@@ -1,7 +1,6 @@
 ## MMM-MusicCharts
 
-
-CURRENTLY THE API FOR THIS IS DOWN WITH NO ESTIMATION WHEN IT WILL EVER WORK AGAIN.....I'm trying to locate a new source for the info.
+ALL new using Last.FM top 50 list
 
 ## Examples
 
