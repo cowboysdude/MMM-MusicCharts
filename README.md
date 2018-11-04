@@ -4,9 +4,8 @@ ALL new using Last.FM top 50 list
 
 ## Examples
 
-![](examples/Capture.PNG)
-
-![](examples/Capture1.PNG) 
+![](examples/Capture.PNG) 
+ 
  
 * `git clone https://github.com/cowboysdude/MMM-MusicCharts` into the `~/MagicMirror/modules` directory. 
 
