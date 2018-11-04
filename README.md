@@ -2,7 +2,7 @@
 
 ALL new using Last.FM top 50 list
 
-## Examples
+## Example 
 
 ![](examples/Capture.PNG) 
  
