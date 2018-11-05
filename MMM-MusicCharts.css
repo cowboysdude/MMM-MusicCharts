@@ -16,7 +16,7 @@ div.flexcontainer{
 }
 .fontLetter {
 	font-family: 'Economica', sans-serif;
-	color: #008080;
+	color: #ffffff;
     font-size: 23px;
 	line-height: 95%;
 }
@@ -33,7 +33,7 @@ div.columns{
 }
  
 div.columns:nth-of-type(1){
-    background: #000;
+    
     flex: none; /* make this flex item inflexible, so width property controls its width entirely */
     width: 90px;
 	padding-right: 5px;
